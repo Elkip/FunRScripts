@@ -153,9 +153,7 @@ plot_ly() |>
         zmin = 0,
         zmax = 150,
         frame = aliens_by_yearCounty$year,
-        autocolorscale = FALSE,
-        colorscale = "Greens",
-        reversescale = TRUE
+        colors = c("#cffccc", "#70f566", "#18da3b", "#2bdb6b", "#39a78e", "#48b9bf")
     ) |>
     colorbar(title = "Number of UFO Sightings", 
              tickvals = c(10, 25, 50, 100, 150)
